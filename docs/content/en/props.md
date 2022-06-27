@@ -520,7 +520,7 @@ Invoked once the tippy has been triggered by a DOM event (e.g. `mouseenter`).
 
 ```js
 useTippy(target, {
-  onShown(instance, event) {
+  onTrigger(instance, event) {
     // ...
   },
 })
